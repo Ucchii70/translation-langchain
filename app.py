@@ -42,7 +42,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title("多言語翻訳アプリ")
-st.write("LangChainを使った翻訳アプリです。")
+st.write("From LangChain")
 
 options = ["日本語", "英語", "スペイン語", "ドイツ語", "フランス語", "中国語", "ベトナム語"]
 source_lang = st.selectbox(label="翻訳元", options=options)
